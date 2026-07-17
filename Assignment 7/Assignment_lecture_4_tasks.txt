@@ -1,0 +1,62 @@
+Task 1: Web Application Reconnaissance & Technology Identification
+
+Objective: Understand how a web application works and identify its technologies.
+
+Instructions:
+
+Choose an authorized test website (e.g., DVWA, OWASP Juice Shop).
+Identify:
+Website URL
+HTTP vs HTTPS
+Request methods used (GET, POST)
+Response status codes (200, 301, 302, 403, 404, 500)
+Technologies used (server, CMS, framework) using tools like WhatWeb or Wappalyzer.
+Capture screenshots of your findings.
+Write a short report (1–2 pages) explaining your observations.
+
+--------------------------------------------------------------
+
+Task 2: HTTP Requests, Authentication & Authorization Analysis
+
+Objective: Learn how web applications communicate and how users are authenticated and authorized.
+
+Instructions:
+
+Open an authorized web application.
+Use your browser's Developer Tools  to inspect requests.
+Identify:
+HTTP request headers
+HTTP response headers
+Cookies
+Session ID
+Request methods (GET, POST, PUT, DELETE if present)
+Explain the difference between:
+Authentication
+Authorization
+Sessions
+Cookies
+Tokens (JWT)
+Draw a simple authentication flow diagram.
+
+--------------------------------------------------------------
+
+Task 3: SQL Injection (Authorized Practice)
+
+Objective: Understand SQL Injection and observe its impact in a safe lab environment.
+
+Instructions:
+
+Use an intentionally vulnerable application such as  http://65.61.137.117/
+Review the  SQL Injection concept.
+Perform basic SQL Injection testing on the provided login or search page.
+Record:
+The vulnerable input field
+Payload(s) used
+Application response
+Why the vulnerability exists
+How parameterized queries (prepared statements) prevent SQL Injection
+Provide screenshots of each step.
+
+Note: Perform testing only on authorized training environments.
+
+Deliverable: PDF report including screenshots, payloads used, observations, and mitigation techniques. 
